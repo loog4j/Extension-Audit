@@ -1,0 +1,31 @@
+# Windows
+Thumbs.db
+Desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# PowerShell
+*.ps1xml
+
+# Logs
+*.log
+*.evtx
+
+# Test files
+test/
+tests/
+*.test.ps1
+
+# Local environment
+.env
+.vscode/
+.idea/
+
+# Personal notes
+notes/
+private/
+for dallin/
