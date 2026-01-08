@@ -84,7 +84,7 @@ param(
 
     [string]$Match = $null,
 
-    [string]$MaliciousExtensionsUrl = "https://raw.githubusercontent.com/yourdomain/malicious-extensions/main/extensions.txt",
+    [string]$MaliciousExtensionsUrl = "https://github.com/loog4j/Extension-Audit/blob/main/ExtensionIDs/malicious_extensions.txt",
 
     [string]$MaliciousExtensionsPath = $null
 )
