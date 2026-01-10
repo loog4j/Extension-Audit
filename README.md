@@ -2,22 +2,22 @@
 
 A lightweight PowerShell script for auditing browser extensions across Windows endpoints. Designed for enterprise security teams to detect malicious browser extensions by comparing installed extensions against a known malicious extension ID list.
 
-## 🎯 Overview
+## Overview
 
 This tool silently enumerates all browser extensions installed on a Windows system across all user profiles and logs findings to Windows Event Viewer. Security teams can then pull these logs into their SIEM for analysis, alerting, and incident response.
 
 **Key Features:**
-- ✅ Scans Chrome, Edge, Brave, and Firefox extensions
-- ✅ Scans all user profiles automatically (not just current user)
-- ✅ Compares against known malicious extension ID list
-- ✅ Logs to Windows Event Viewer in Sysmon-compatible format
-- ✅ Silent execution (perfect for scheduled tasks)
-- ✅ No dependencies - uses built-in PowerShell
-- ✅ SIEM-ready output (Event ID 9194)
+- Scans Chrome, Edge, Brave, and Firefox extensions
+- Scans all user profiles automatically (not just current user)
+- Compares against known malicious extension ID list
+- Logs to Windows Event Viewer in Sysmon-compatible format
+- Silent execution (perfect for scheduled tasks)
+- No dependencies - uses built-in PowerShell
+- SIEM-ready output (Event ID 9194)
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Download the Script
 ```powershell
