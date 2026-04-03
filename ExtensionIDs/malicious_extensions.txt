@@ -1,0 +1,867 @@
+# Malicious Browser Extensions List
+# Last Updated: 2026-04-03
+#
+# Sources:
+# - https://github.com/palant/malicious-extensions-list (archived, moved to Codeberg)
+# - https://github.com/mallorybowes/chrome-mal-ids
+# - Secure Annex / ExtensionTotal / Hunters Team Axon (Cyberhaven campaign)
+# - GitLab Threat Intelligence (February 2025)
+# - Koi Security (RedDirection, ShadyPanda, DarkSpectre campaigns)
+# - Socket.dev, OX Security, LayerX Security
+# - Malwarebytes Research (December 2024)
+# - Mozilla Bugzilla (Firefox add-ons)
+#
+# Format: One extension ID per line
+# Lines starting with # are comments and will be ignored
+# Chromium IDs: 32 lowercase letters (a-p)
+# Firefox IDs: email-style (addon@dev.com) or GUID ({...})
+
+# ============================================================================
+# "Sleeper Agent" Extensions (Mid-2024 Campaign - 4.3M+ Users Affected)
+# These extensions operated cleanly for years before weaponization
+# ============================================================================
+
+# Autoskip for Youtube - Turned into spyware mid-2024
+lgjdgmdbfhobkdbcjnpnlmhnplnidkkp
+
+# Soundboost - Audio enhancement tool turned malicious
+chmfnmjfghjpdamlofhlonnnnokkpbao
+
+# Crystal Ad block - Fake ad blocker with tracking
+lklmhefoneonjalpjcnhaidnodopinib
+
+# Brisk VPN - VPN extension with data exfiltration
+ciifcakemmcbbdpmljdohdmbodagmela
+
+# Clipboard Helper - Clipboard stealer
+meljmedplehjlnnaempfdoecookjenph
+
+# ============================================================================
+# January 2025 GitLab Discovery (3.2M+ Users Affected)
+# Supply chain attack - compromised legitimate extensions
+# ============================================================================
+
+# VPNCity - Compromised VPN extension
+lipmdblppejomolopniipdjlpfjcojob
+
+# Uvoice - Compromised screen capture tool
+lmcboojgmmaafdmgacncdpjnpnnhpmei
+
+# Internxt VPN - Compromised privacy extension
+icnekagcncdgpdnpoecofjinkplbnocm
+
+# Parrot Talks - Compromised communication tool
+bahogceckgcanpcoabcdgmoidngedmfo
+
+# Bookmark Favicon Changer - Hijacked utility
+bkpdalonclochcahhipekbnedhklcdnp
+
+# ============================================================================
+# Credential Theft Campaign (December 2024)
+# Injected code to steal passwords and session cookies
+# ============================================================================
+
+# Castorus - Password stealer
+magnkhldhhgdlhikeighmhlhonpmlolk
+
+# Wayin VoiceIn - Credential harvester
+edadmcnnkkkgmofibeehgaffppadbnbi
+
+# Search Copilot AI Assistant for Chrome - Fake AI tool
+ajneghihjbebmnljfhlpdmjjpifeaokc
+
+# Keyboard History Recorder - Keylogger disguised as utility
+nadenkhojomjfdcppbhhncbfakfjiabp
+
+# ============================================================================
+# Crypto Mining / Resource Hijacking
+# ============================================================================
+
+# Nigelify (Nigelthorn campaign) - Cryptominer
+gmddfjhfjgbmabkihepijkanhmlooajl
+
+# Castorus (variant) - Mining and data theft
+hdgdghnfcappcodemanhafioghjhlbpb
+
+# OneCleaner - Fake cleaner with miner
+fbjfihoienmhbjflbobnmimfijpngkpa
+
+# Nigelthorn campaign (May 2018) - Spread via Facebook, Monero mining
+# Source: Radware, mallorybowes/chrome-mal-ids
+# PwnerLike
+kajjcgpohlkdcjfkcbkkbhapafcblaom
+
+# Alt-j
+anbnajjakpmfdofijejenaclbceejlll
+
+# Fix-case
+jkkmcoihchcflfjnigngdegbemipdlnl
+
+# Divinity 2 Original Sin: Wiki Skill Popup
+ajmchakbijebimbgcohecngliijaddin
+
+# keeprivate
+edpoobbacbcmfpnfpjoambjbihhobooi
+
+# iHabno
+opfogdennafhaoihhkocppaajlkpbfbn
+
+# CacheFlow campaign (2020) - Search hijacking via Cache-Control headers
+# Source: Avast
+# VK Unblock (and related)
+ceoldlgkhdbnnmojajjgfapagjccblib
+
+# ============================================================================
+# Data Exfiltration / Adware
+# ============================================================================
+
+# SearchBlox - Search hijacker
+kjeffohcijbnlkgoaibmdcfconakaajm
+
+# Proxy Service - Malicious proxy
+djmpbcihmblfdlkcfncodakgopmpgpgh
+
+# ============================================================================
+# DataSpii Campaign (July 2019)
+# Real-time browsing data sold via Nacho Analytics - ~4M users
+# Source: Sam Jadali (Security with Sam), mallorybowes/chrome-mal-ids
+# ============================================================================
+
+# Hover Zoom
+nonjdcjchghhkdoolnlbekcfllmednbl
+
+# SpeakIt!
+pgeolalilifpodheeocdmbhehgnkkbak
+
+# SuperZoom
+gnamdgilanlgeeljfnckhboobddoahbl
+
+# FairShare Unlock
+alecjlhgldihcjjcffgjalappiifdhae
+
+# PanelMeasurement
+kelbkhobcfhdcfhohdkjnaimmicmhcbo
+
+# Branded Surveys
+dpglnfbihebejclmfmdcbgjembbfjneo
+
+# Panel Community Surveys
+lpjhpdcflkecpciaehfbpafflkeomcnb
+
+# SaveFrom.net Helper
+lfedlgnabjompjngkpddclhgcmeklana
+
+# ============================================================================
+# Additional Known Malicious Extensions (2021-2024)
+# Source: Security researcher compilations
+# ============================================================================
+
+# ============================================================================
+# Bulk IDs from community malicious extension lists
+# Sources: mallorybowes/chrome-mal-ids, nicoleahmed/malicious-extensions-list
+# These are ID-only (no names) but appear on vetted researcher-maintained lists
+# ============================================================================
+aaeohfpkhojgdhocdfpkdaffbehjbmmd
+abghmipjfclfpgmmelbgolfgmhnigbma
+abjbfhcehjndcpbiiagdnlfolkbfblpb
+acdfdofofabmipgcolilkfhnpoclgpcd
+aciipkgmbljbcokcnhjbjdhilpngemnj
+aciloeifdphkogbpagikkpiecbjkmedn
+aeilijiaejfdnbagnpannhdoaljpkbhe
+aemaecahdckfllfldhgimjhdgiaahean
+afdfpkhbdpioonfeknablodaejkklbdn
+ajefbooiifdkmgkpjkanmgbjbndfbfhg
+akdbogfpgohikflhccclloneidjkogog
+anflghppebdhjipndogapfagemgnlblh
+anmbbeeiaollmpadookgoakpfjkbidaf
+aoeacblfmdamdejeiaepojbhohhkmkjh
+aonedlchkbicmhepimiahfalheedjgbh
+bebmphofpgkhclocdbgomhnjcpelbenh
+bhcpgfhiobcpokfpdahijhnipenkplji
+bhfoemlllidnfefgkeaeocnageepbael
+bmkgbgkneealfabgnjfeljaiegpginpl
+ccjlpblmgkncnnimcmbanbnhbggdpkie
+cclhgechkjghfaoebihpklmllnnlnbdb
+cfegchignldpfnjpodhcklmgleaoanhi
+cfllfglbkmnbkcibbjoghimalbileaic
+chmaijbnjdnkjknoigffoohjhpejjppd
+cjljdgfhkjbdbkcdkfojleidpldagmao
+cjmpdadldchjmljhkigoeejegmghaabp
+coabfkgengacobjpmdlmmihhhfnhbjdm
+cpmpjapeeidaikiiemnddfgfdfjjhgif
+dambkkeeabmnhelekdekfmabnckghdih
+dcaffjpclkkjfacgfofgpjbmgjnjlpmh
+deebfeldnfhemlnidojiiidadkgnglpi
+dgjmdlifhbljhmgkjbojeejmeeplapej
+djekgpcemgcnfkjldcclcpcjhemofcib
+dkbccihpiccbcheieabdbjikohfdfaje
+dljdbmkffjijepjnkonndbdiakjfdcic
+dlpimjmonhbmamocpboifndnnakgknbf
+dnbipceilikdgjmeiagblfckeialaela
+dneifdhdmnmmlobjbimlkcnhkbidmlek
+doiiaejbgndnnnomcdhefcbfnbbjfbib
+dpfofggmkhdbfcciajfdphofclabnogo
+dppilebghcniomddkpphiminideiajff
+dppnhoaonckcimpejpjodcdoenfjleme
+eabhkjojehdleajkbigffmpnaelncapp
+ealojglnbikknifbgleaceopepceakfn
+ebdbcfomjliacpblnioignhfhjeajpch
+edlifbnjlicfpckhgjhflgkeeibhhcii
+eggeoellnjnnglaibpcmggjnjifeebpi
+ehmneimbopigfgchjglgngamiccjkijh
+ehpgcagmhpndkmglombjndkdmggkgnge
+eikbfklcjampfnmclhjeifbmfkpkfpbn
+ejfajpmpabphhkcacijnhggimhelopfg
+ejllkedmklophclpgonojjkaliafeilj
+ekjogkoigkhbgdgpolejnjfmhdcgaoof
+elpdbicokgbedckgblmbhoamophfbchi
+emechknidkghbpiodihlodkhnljplpjm
+emeokgokialpjadjaoeiplmnkjoaegng
+eoeoincjhpflnpdaiemgbboknhkblome
+eoijplcnfnjgofchhdkkhpfcjkcefgkb
+epeigjgefhajkiiallmfblgglmdbhfab
+eplfglplnlljjpeiccbgnijecmkeimed
+facihnceaoboeoembnbmdlecmkpioacc
+fagaafjhdmoagacggplmbpganjfjjpcf
+fanonokndfeibplocpeipgfbopkigcce
+faokbgedcfhnfecloigcihpplicdnann
+fbbjijdngocdplimineplmdllhjkaece
+fbhbpnjkpcdmcgcpfilooccjgemlkinn
+fbjhgeaafhlbjiejehpjdnghinlcceak
+fcdopghpidfdeglcheccmehiaedgpmkm
+fdacngbbemokpkmdkdefkoodndakgejc
+fedchalbmgfhdobblebblldiblbmpgdj
+ffhamkjhfajcjlnobkogimnhiagohgfg
+fjnbjacfigdidgeeommhbdhnojamhpfg
+fjohhelccbogecmolmjemopgackpnmpg
+fkhpfgpmejefmjaeelgoopkcglgafedm
+flagaiaajbikpfnnkodcphdcmgefmbcl
+flgfngbiaanimkhjkojnmilfalidpign
+flmihfcdcgigpfcfjpdcniidbfnffdcf
+fmfjhicbjecfchfmpelfnifijeigelme
+fmlpbbognkocpajihchioognkmdeeldo
+fmngfipkcebejdconcibohjjgfmokhpa
+fnblapfcdifokdbkpcbhpkajlkgmcjii
+fobaamfiblkoobhjpiigemmdegbmpohd
+fpdjcfokkeooncckcolkmmppebjnfhgh
+fphafkamioonlcelldogidajbcmmicco
+fpjbgjpkfcanmdgjpmnnmoekkaahmafg
+gbdjcgalliefpinpmggefbloehmmknca
+gceehiicnbpehbbdaloolaanlnddailm
+gcnceeflimggoamelclcbhcdggcmnglm
+gdacidkmmbdpkedejaljplnfhjidomio
+gdoomgeeelkgcmmoibloelbodkpggdle
+geoolholooeeblajdjffdmknpecbkmah
+gfbgiekofllpkpaoadjhbbfnljbcimoh
+gfjocjagfinihkkaahliainflifnlnfc
+ggacghlcchiiejclfdajbpkbjfgjhfol
+ghfgeefhkkoajgmnopaldgcagohakhmg
+ghhanhhegklhcoffmgkdbiekfhmbfbnc
+gjjbmfigjpgnehjioicaalopaikcnheo
+gjkigcdoljdojaaomnadffdhggoobdpc
+gkjkhpbembbjogoiejpkehohclfoljbp
+glgemekgfjppocilabhlcbngobillcgf
+glibnbcgclecomknccifdaglefljfoej
+gllogphgdmclhfledlcgmdolngohamcl
+goaebigflkhjjblmofhoggdhebgnielo
+gpdfpljioapjogbnlpmganakfjcemifk
+haagbldencigkgikfekmoaaofambnafp
+haglbigaalkckkedjamjibfnklbbodck
+hajlccgbgjdcjaommiffaphjdndpjcio
+hcgepcgbgnleafnfcepjbekchbdmekfa
+hdbchphkjjidcfidaelcpmonodhhaahp
+hdbipekpdpggjaipompnomhccfemaljm
+hdljgflalglmllbagpacjmkdiggliidk
+hdpnlijiblkmokbjljbahhgkpokgpkli
+heaphjoejcpdagahbnkkloiaicpadomp
+hinhmojdkodmficpockledafoeodokmc
+hjfmdhbmpagpfheceengkakdmpncmlif
+hjkjkmkoklbhjhlddialffkchddlncjb
+hjlekdknhjogancdagnndeenmobeofgm
+hjoihkjijjbkiglgeghbokincmidfped
+hlbdhflagoegglpdminhlpenkdgloabe
+hncokbmdmbmmlkjhoagcpokehopdikhc
+hnfabcchmopgohnhkcojhocneefbnffg
+hnhpnbajfmmopedidmiablkcdnlegkmd
+homdfmaeflodjknffbnhagmlhmgmbjac
+iabflonngmpkalkpbjonemaamlgdghea
+ibehiiilehaakkhkigckfjfknboalpbe
+ibppednjgooiepmkgdcoppnmbhmieefh
+iccagibmclklcmiejfddepgffgkhnnib
+icchadngbpkcegnabnabhkjkfkfflmpj
+ickfamnaffmfjgecbbnhecdnmjknblic
+idgncaddojiejegdmkofblgplkgmeipk
+idkllmolbaiailjfidkjcidapkddidbg
+ielooaepfhfcnmihgnabkldnpddnnldl
+ifbffcgakkboaffkidggpcjolehhhbfd
+ifdebecchhapkfdbcbhpmjonmbpfpnck
+ifdepgnnjpnbkcgempionjablajancjc
+igbcfkjflkgamnoikcpiljglnmjnkjac
+igkkmokkmlbkkgdnkkancbonkbbmkioc
+iiblgogamkmdfojoclpdhainbndfpcci
+iibnodnghffmdcebaglfgnfkgemcbchf
+iicpikopjmmincpjkckdngpkmlcchold
+ijejnggjjphlenbhmjhhgcdpehhacaal
+iklgljbighkgbjoecoddejooldolenbj
+imopknpgdihifjkjpmjaagcagkefddnb
+inkankpmoblmficechfgfinajifbfkdn
+inlgdellfblpplcogjfedlhjnpgafnia
+ioejcipbmdjinhfciojiacdjolkabkmn
+iojhbljpppeociniiemjfelmdcgikmep
+ionpbgeeliajehajombdeflogfpgmmel
+ipgnnndhgeaclopjgiihppbbfnmkmjcm
+jaekigmcljkkalnicnjoafgfjoefkpeg
+jchmabokofdoabocpiicjljelmackhho
+jckaglinbbflgcklfgacjdmgpnccmdng
+jdlkkmamiaikhfampledjnhhkbeifokk
+jfocahgaekfaemhfcfefcodphgpinnch
+jgbkgjepkeklblmlhnpjmnbinmifjenc
+jglemppahimembneahjbkhjknnefeeio
+jhcfnojahmdghhebdaoijngclknfkbjn
+jhkhlgaomejplkanglolfpcmfknnomle
+jiaopkfkampgnnkckajcbdgannoipcne
+jjgnkfncaadmaobenjjpmngdpgalemho
+jlbebokeclkofhchdepbojfhmocdlhfl
+jlbhkoohfmnikpalgglhpadlbeiobkaa
+jlbpahgopcmomkgegpbmopfodolajhbl
+jlkfgpiicpnlbmmmpkpdjkkdolgomhmb
+jmlbnlcodmikhdpbjjdemgaebjgmpooa
+jnmckphflgdpioinbjaeckdajkbgcfgg
+jpefmbpcbebpjpmelobfakahfdcgcmkl
+kacljcbejojnapnmiifgckbafkojcncf
+kcjahchbheejjpdpohgfkaoknhcdjjnh
+kdihodbgfndblemlklkllhfjhiidbgih
+kefmhdhaebhmdeaabcgoaegmgodncebc
+kekdpkbijjffmohdaonbpeeaiknhbkhj
+kgddnoifhgfdhcpbkkjdgokfnkkmdcen
+kgfeiebnfmmfpomhochmlfmdmjmfedfj
+khdnaopfklkdcloiinccnaflffmfcioa
+kicmnilchjfefpceoaiopdpbpkicgjjm
+kigiheamdfmilbhkfdploghfnndcgkko
+kjgceeikbnmddoaggelkkpljdabhghkc
+kjgkmceledmpdnmgmppiekdbnamccdjp
+kkeojhapoadcdlmkjlakdbhfkldbbmgi
+klbibkeccnjlkjkiokjodocebajanakg
+klejifgmmnkgejbhgmpgajemhlnijlib
+klmjcelobglnhnbfpmlbgnoeippfhhil
+kmfiklhdkhidbmofjbgmpeaogglkndpe
+knacgnmpceaffedmgegknkfcnejjhdpp
+kppjffaccdlhfeleafnohmfkgimdjmgg
+laameccjpleogmfhilmffpdbiibgbekf
+lagdcjmbchphhndlbpfajelapcodekll
+lalpacfpfnobgdkbbpggecolckiffhoi
+lbbegfjhlhpikmhbdcfcoadegdldmaen
+lbjgbekokephmmfllmpglefmoaihklpn
+lbohagbplppjcpllnhdichjldhfgkicb
+ldbfffpdfgghehkkckifnjhoncdgjkib
+ledkggjjapdgojgihnaploncccgiadhg
+lgecddhfcfhlmllljooldkbbijdcnlpe
+lgjogljbnbfjcaigalbhiagkboajmkkj
+lkahpjghmdhpiojknppmlenngmpkkfma
+lkciiknpgglgbbcgcpbpobjabglmpkle
+lkhhagecaghfakddbncibijbjmgfhfdm
+lknpbgnookklokdjomiildnlalffjmma
+lmcajpniijhhhpcnhleibgiehhicjlnk
+lnocaphbapmclliacmbbggnfnjojbjgf
+lojpdfjjionbhgplcangflkalmiadhfi
+lopnbnfpjmgpbppclhclehhgafnifija
+mabdjppmcjpjploliggpbonahnjjlgkf
+mbacbcfdfaapbcnlnbmciiaakomhkbkb
+mcmdolplhpeopapnlpbjceoofpgmkahc
+mcmmiinopedfbaoongoclagidncaacbd
+mdkiofbiinbmlblcfhfjgmclhdfikkpm
+mdnmhbnbebabimcjggckeoibchhckemm
+mdpljndcmbeikfnlflcggaipgnhiedbl
+meffljleomgifbbcffejnmhjagncfpbd
+mejjgaogggabifjfjdbnobinfibaamla
+mhpcabliilgadobjpkameggapnpeppdg
+miejmllodobdobgjbeonandkjhnhpjbn
+mkjjckchdfhjbpckippbnipkdnlidbeb
+mldaiedoebimcgkokmknonjefkionldi
+mlkjjjmhjijlmafgjlpkiobpdocdbncj
+mnafnfdagggclnaggnjajohakfbppaih
+mndiaaeaiclnmjcnacogaacoejchdclp
+mnlohknjofogcljbcknkakphddjpijak
+napifgkjbjeodgmfjmgncljmnmdefpbf
+ndcokkmfmiaecmndbpohaogmpmchfpkk
+nhnfcgpcbfclhfafjlooihdfghaeinfc
+nilbfjdbacfdodpbdondbbkmoigehodg
+ninecedhhpccjifamhafbdelibdjibgd
+njdkgjbjmdceaibhngelkkloceihelle
+nkmooloiipfcknccapehflmampkaniji
+nlmjpeojbncdmlfkpppngdnolhfgiehn
+nmigaijibiabddkkmjhlehchpmgbokfj
+npdkkcjlmhcnnaoobfdjndibfkkhhdfn
+npmjjkphdlmbeidbdbfefgedondknlaf
+oakbcaafbicdddpdlhbchhpblmhefngh
+obdhcplpbliifflekgclobogbdliddjd
+ocginjipilabheemhfbedijlhajbcabh
+oepjogknopbbibcjcojmedaepolkghpb
+ofpnikijgfhlmmjlpkfaifhhdonchhoi
+ogadflejmplcdhcldlloonbiekhnlopp
+ogfjgagnmkiigilnoiabkbbajinanlbn
+ohdgnoepeabcfdkboidmaedenahioohf
+okclicinnbnfkgchommiamjnkjcibfid
+okkffdhbfplmbjblhgapnchjinanmnij
+oodkhhminilgphkdofffddlgopkgbgpm
+pbdpfhmbdldfoioggnphkiocpidecmbp
+pbebadpeajadcmaoofljnnfgofehnpeo
+pcjmcnhpobkjnhajhhleejfmpeoahclc
+pegfdldddiilihjahcpdehhhfcbibipg
+phfkifnjcmdcmljnnablahicoabkokbg
+phjbepamfhjgjdgmbhmfflhnlohldchb
+phjhbkdgnjaokligmkimgnlagccanodn
+pinnfpbpjancnbidnnhpemakncopaega
+pjbgfifennfhnbkhoidkdchbflppjncb
+plmlopfeeobajiecodiggabcihohcnge
+pmilcmjbofinpnbnpanpdadijibcgifc
+pmlcjncilaaaemknfefmegedhcgelmee
+pmnphobdokkajkpbkajlaiooipfcpgio
+pnanegnllonoiklmmlegcaajoicfifcm
+pnlphjjfielecalmmjjdhjjninkbjdod
+pooaemmkohlphkekccfajnbcokjlbehk
+
+acmnokigkgihogfbeooklgemindnbine
+apgohnlmnmkblgfplgnlmkjcpocgfomp
+apjnadhmhgdobcdanndaphcpmnjbnfng
+bahkljhhdeciiaodlkppoonappfnheoi
+bannaglhmenocdjcmlkhkcciioaepfpj
+bfkgjpkhecimpgkcakhbppkgnoohgpfo
+bgnkhhnnamicmpeenaelnjfhikgbkllg
+bhcpgfhiobkdgddkgjfjbgiiifbimfpm
+bhmmgahbknelmnkikpkamojglpnlbpne
+bkgdcejaipbpimampglbhpgkgjahoomc
+bmkckgpgekmanipelfidlhmkfcjicion
+bomapbjphccinmgdgakcfenndahhpidb
+ccbpbkebodcjkknkfkpmfeciinhidaeh
+cdajmcnfkfckiicpfcjjdlhkfjielmfk
+cecaajidpkkmglnebmabcfmbmghlkmpn
+cganmdggibcoaihbbhebdaekghgdokhi
+cgpbghdbejagejmciefmekcklikpoeel
+chfdnmkjdofipaadepnfgimmdiokhhbi
+cjidhbilmijhniifjnhonaakdbiajhja
+ckmahhnaaihifpccohbdblgfgpjppiip
+cmedhionkhpnakcndndgjdbohmhepckk
+cnefjennimbimefgmmbmglnjjmkdaofn
+cnhbkkedmelfmalgjpkngiaoifpdfcnl
+dblohkjhdcmjnfhkbiiddibmpjdcmkfn
+dcillohgikpecbmgioknapdpcjofaafl
+dhdepfaagokllfmhfbcfmocaeigmoebo
+dlnejlppicbjfcfcedcflplfjajinajd
+ebhhlnddneahfkkoakdbaokbhhcflpdh
+edpngoabonmpbgdjdeibnllnddogpdcp
+efffbejneloiblckdbiicfgagiofjnef
+ejjladinnckdgjemekebdpeokbikhfci
+ekjpkkalckpiamjcbpbblcickckbhkpa
+ellhfddbahmajomfeekiofcjjiampojc
+enfkjdnaecpgfhdgfbfpbilbhhdflcbh
+faalmaliecjkohjljgicfpcikekaiehd
+fchfabaigfhajnomjgfohhcnamfklkdp
+fepmicbhpcbclpagcdodbmbpbgnalbcd
+ffllmcpegfbacbdjnocabndmhpccnhpl
+fhleifggkjfiiaflgkmhcfccjbccnnlh
+fhmhlpmcgfcfcpkhoeakanfgbpifamgn
+fiabciakcmgepblmdkmemdbbkilneeeh
+fihmmfcgjiapkpaklgkjdlmbgphajbjp
+fjhdnpkbbjogbmmgljjnhjnejmmhmcgo
+fjlleblabdpaihfifmlpgcgigddbgdlb
+fmapfapohomakmfdcalppgkaiccenjdg
+fnhjifjfeomigcgccmojngfgjndipffl
+fnnidgbfgcahfhbnknhndnnddndnpbid
+gaiilaahiahdejapggenmdmafpmbipje
+gbkeegbaiigmenfmjfclcdgdpimamgkj
+gcnghkkkfjfddhebogmfmegocjjmnhdc
+gdbmeeifhbhnlialabfkecgbaefkdedf
+gffjpkbdngpbapkcanooghaelcdegdko
+ghkeioiplkoelacnfiecgocijjdhjabh
+gighmmpiobklfepjocnamgkkbiglidom
+gjafpdfkdbdgihgjfklcckblchfniapo
+gkgbofcccfabljbneaaddhjakfjlbkld
+glcipcfhmopcgidicgdociohdoicpdfc
+glpfemfgjeeogpjaodpbfmmfffabfdjm
+hfhaaokeaajjnemgebklbaaghihppnjg
+hkbhjlkpjfabnohcjjhimnmmhfhkclha
+hipncndjamdcmphkgngojegjblibadbe
+hmbofndpfhiakgepibgimplondjbngco
+hmcggbbdncpblldpjlhkcemkchlcfine
+hodikeigdmpfcihmjbafcchaigkiiobf
+hpljddkkhnjkijfebjkjjdnpnkmpfnib
+iajdcbpdpfjofbnecfmmlhhjdakgpkhi
+ialgbpccfdbjdfbhefhhgobfgdmdpdbi
+idbbpgodhafhflikkloagceafdjbckam
+ieaiigclplnmplliggmgmbnpchciiiem
+ifipigdhpmjjdjmfbdmcfehlmkecpgfj
+ihdgfelkdkcfhcjipflikinhjdkhoiia
+ijgoicifhkmpemcfmemgefmfpcnhoobb
+ilmdjhobgjfkeebhpahblpbkogjkfaod
+inbklbieifbbmogfjcfdklpcpomfbghe
+ipikiaejjblacepffjcalfbgfhiafklh
+jbajpenahmkmfcaenklmhahipodjjihi
+jbdnflbdjphcnclmijhckbhebmaolnca
+jbfdeegccjbecjdbpeodjaoeohhonfdl
+jdejckkjacnoibcfkhnfccdmjfkpmmpc
+jhbnekmejionahakmgkikcfijcleahle
+jhoplmgojnlbkpfgcdljlolnhbhfdfno
+jidjhchcblhlapbcpheibgdjkajekhbh
+jljhfgkacjdgkbldhpgpgkmidmdpklng
+jolahfpfehhggmkmgfbebpfjkhlcpfif
+jpblbpigngipgnhldajmmjmjempibgig
+jpeaenmnjpjpkclhngdkdehpcafgncbj
+kabnmflkbcmhbfiiofhkbmbphpkbdkfd
+kcppokcdhnbikijhfmlnjcgllnfmniil
+kddpjdlankjdobpbahckdjkmokbkmpnp
+kekbpdhkcbdhjmcghhejhmlgbkfonjpn
+kelmphmcnhnebnchepndbahgijiojceg
+kfhejcpmenoaomgjfgpjmhhbbheeohhd
+khcnfmlfdemfdngnahlljmllddlgpifk
+khdoeeabjhcogipflahjhmipcgmokkii
+kiofhemhmdiigmmmfblpgfkbhgkohfno
+kjdjiejgoakbaihkofejfgdfhpbcohjc
+klifhfjbpdkjeengaoaiilnpgdokfcjk
+kmpebbpgkekjgcgljmojgjhddpibglgn
+lbenfaidmegjjaekfboaimbfbmhlpiep
+lcpgicmkcnhidhdjfoiaihkmlmflipnb
+ldgfbffkinooeloadekpmfoklnobpien
+lgcphbmedhpnnpbfjgbpdaeghbmacnff
+lgdhihebajjfddmpcdlpdpphfgdpndkc
+lglllfchmdkffmilohgbcjdnbofmfmdb
+lhgckcheckpklgcnpglmegljkeafjipf
+lhkaiafpflnigmfdahefhfjcdjfcigmf
+lhlijambodicfjdgmbmojgjglbecoaff
+lhmicjbjbpmolgebjdfihdbnbmhafkgg
+lhojnmilnjlkfgfhihdkagjpmfijfjod
+lkjohneaphjlgmdbnkhgoiagohgacnhj
+llbaoadhemopbblcdekooncddeopmhom
+lmoghnkpocfphiklmjmapkmdklbkghod
+lncdpopbnjflooickmlnpfdmdnhhijln
+lnfelakbkjngnhemghmkadnfehnmcbph
+lokjenhcbapgdlkfblbcfnhilncjmgkm
+mdnompaombjmlehpfkckncblobmoeomp
+mebagdhkmblpipddaiakjkhpfcbnebdd
+menejkgbfchbidmdfpocahbagpphpbkj
+mfgfcnoijojfcmgmepbodgmdfbehkfhb
+mfphjbloagemjkhegfpphbfclahdghmd
+mgfeafjhbklgklebdpepamlgaomkpafj
+mgfmfidaojaiopilhpdpbmpihpdfoigk
+mgfpnmgbbbbdebbhejnkioipofhjdfdh
+mhaahegcdapfefcopdigaomkfgbakjjl
+mhhbhjgcfmaonljndlphpmpkehcbciik
+mijlebbfndhelmdpmllgcfadlkankhok
+mkjbjnglbgoaedaiaimmcnphjiimhmlg
+mlafkignbcjnmhkmneegldgalbcdhmfj
+mlifhjgedfagepfhkojlcdbgnkbkilge
+mmfbcljfglbokpmkimbfghdkjmjhdgbg
+mpncdnbabnkaggoaigchpnbhdmiojpka
+nbfpkmgomhbcgmlhbekjdnaogokjmgbf
+ncffjdbbodifgiejcpcgkcakgaapmhce
+ndfnmlonkimafoabeafnaignianecdhf
+ndmnkknpdfpnilgocfpijklkjfbfkkge
+neohapejbkdoidkfmfbffphjkbpeaodi
+ngbdepgihknelahbcijdabcngjbdoija
+nglaklhklhcoonedhgnpgddginnjdadi
+ngpampappnmepgilojfohadhhmbhlaek
+niloccemoadcdkdjlinkgdfekeahmflj
+nljidckklhegpfjohflikimcfndhidld
+nmafngoggipjkihhhfocmobgbacdbnod
+npelgnjhbfphkpbnfnabofmkihkipmni
+nphbklhgjoafeobidpgoidfidbdofmhm
+oahggeddglkmepndkmihbglcniifaooh
+obeokabcpoilgegepbhlcleanmpgkhcp
+obganjeoliekpblfdkeaoijknnbcfiph
+ocggccaacacpienfcgmgcihoombokbbj
+odopocccpeekdpcdfjplpglggdniaepa
+ofbnkjnekjbhgmppddhnccifdkogdhoe
+
+# ============================================================================
+# Cyberhaven Supply Chain Attack (December 2024)
+# Attackers phished extension developers and pushed malicious updates
+# Source: Secure Annex, ExtensionTotal, Hunters Team Axon, SANS ISC
+# ============================================================================
+
+# Cyberhaven - Data loss prevention tool (most prominent victim)
+pajkjnmeojmbapicmbpliphjmcekeaac
+
+# Reader Mode
+llimhhconnjiflfimocjggfjdlmlhblm
+
+# Primus (prev. PADO)
+oeiomhmbaapihbilkfkhmlajkeegnjhe
+
+# Tackker - online keylogger tool
+ekpkdmohpdnebfedjjfklhpefgpgaaji
+
+# AI Shop Buddy
+epikoohpebngmakjinphfiagogjcnddm
+
+# Rewards Search Automator
+eanofdhdfbcalhflpbdipkjjkoimeeod
+
+# Earny - Up to 20% Cash Back
+ogbhbgkiojdollpjbhbamafmedkeockb
+
+# ChatGPT Assistant - Smart Search
+bgejafhieobnfpjlpcjjggoboebonfcg
+
+# VidHelper - Video Download Helper
+egmennebgadmncfjafcemlecimkepcle
+
+# AI Assistant - ChatGPT and Gemini for Chrome
+bibjgkidgpfbblifamdlkdlhgihmfohh
+
+# Vidnoz Flex - Video recorder
+cplhlgabfijoiabgkigdafklbhhdkahj
+
+# TinaMind - GPT-4o-powered AI Assistant
+befflofjcniongenjmbkgkoljhgliihe
+
+# Bard AI Chat
+pkgciiiancapdlpcbppfkmeaieppikkk
+
+# Visual Effects for Google Meet
+hodiladlefdpcbemnbbcpclbmknkiaem
+
+# Email Hunter
+mbindhfolmpijhodmgkloeeppmkhpmhc
+
+# GPT 4 Summary with OpenAI
+epdjhgbipjpbbhoccdeipghoihibnfja
+
+# YesCaptcha assistant
+jiofmdifioeejeilfkpegipdjiopiekl
+
+# GraphQL Network Inspector
+ndlbedplllcgconngcnfmkadhokfaaln
+
+# Proxy SwitchyOmega (V3)
+hihblcmlaaademjlakdpicchbjnnnkbo
+
+# Web Mirror
+eaijffijbobmnonfhilihbejadplhddo
+
+# Hi AI
+hmiaoahjllhfgebflooeeefeiafpkfde
+
+# Unknown (from Hunters Axon IOC list)
+igbodamhgjohafcenbcljfegbipdfjpk
+
+# Sort by Oldest (from Hunters Axon IOC list)
+miglaibdlgminlepgeifekifakochlka
+
+# Alternate IDs for extensions in the Jan 2025 GitLab Discovery section
+# Some extensions have multiple IDs (V2/V3 manifests or regional listings)
+# VPNCity (alternate ID)
+nnpnnpemnckcfdebeekibpiijlicmpom
+
+# Uvoice (alternate ID)
+oaikpkmjciadfpddlpjjdapglcihgdle
+
+# Internxt VPN (alternate ID)
+dpggmcodlahmljkhlmpgpdcffdaoccni
+
+# Parrot Talks (alternate ID)
+kkodiihpgodmdankclfibbiphjkfdenh
+
+# Bookmark Favicon Changer (alternate ID)
+acmfnomgphggonodopogfbmkneepfgnh
+
+# Castorus (alternate ID)
+mnhffkhmpnefgklngfmlndmkimimbphc
+
+# Wayin AI / VoiceIn (alternate ID)
+cedgndijpacnfbdggppddacngjfdkaca
+
+# Search Copilot AI Assistant (alternate ID)
+bbdnohkpnbkdkmnkddobeafboooinpla
+
+# ============================================================================
+# GitLab-Discovered SEO Fraud / Ad Injection (February 2025)
+# CSP header stripping, ad injection, SEO fraud - 3.2M users
+# Source: GitLab Threat Intelligence
+# ============================================================================
+
+# Blipshot: one click full page screenshots
+mdaboflcmhejfihjcbmdiebgfchigjcf
+
+# Emojis - Emoji Keyboard
+gaoflciahikhligngeccdecgfjngejlh
+
+# WAToolkit
+fedimamkpgiemhacbdhkkaihgofncola
+
+# Color Changer for YouTube
+jlhgcomgldfapimdboelilfcipigkgik
+
+# Video Effects for YouTube and Audio Enhancer
+jdjldbengpgdcfkljfdmakdgmfpneldd
+
+# Themes for Chrome and YouTube Picture in Picture
+deljjimclpnhngmikaiiodgggdniaooh
+
+# Mike Adblock fur Chrome
+giaoehhefkmchjbbdnahgeppblbdejmj
+
+# Nimble Capture
+bpconcjcammlapcogcnnelfmaeghhagj
+
+# Camera Picture In Picture (PIP Overlay)
+pgejmpeimhjncennkkddmdknpgfblbcl
+
+# Noise Cancelling App
+njmhcidcdbaannpafjdljminaigdgolj
+
+# LookGood Live
+mleflnbfifngdmiknggikhfmjjmioofi
+
+# AI Webcam Effects + Recorder
+iedbphhbpflhgpihkcceocomcdnemcbj
+
+# Halloween backgrounds and stickers for video calls
+fklkhoeemdncdhacelfjeaajhfhoenaa
+
+# Auto Refresh Plus
+ffejlioijcokmblckiijnjcmfidjppdn
+
+# ============================================================================
+# Palant / Phoenix Invicta Remote Code Execution (January 2025)
+# Custom JS interpreters to bypass Manifest V3 remote code ban
+# Source: Wladimir Palant (Almost Secure blog)
+# ============================================================================
+
+# Download Manager Integration Checklist
+ghkcpcihdonjljjddkmjccibagkjohpi
+
+# Adblock Bear
+gdiknemhndplpgnnnjjjhphhembfojec
+
+# EasyNav
+aobeidoiagedbcogakfipippifjheaom
+
+# ============================================================================
+# RedDirection Campaign (July 2025)
+# URL hijacking, traffic redirection, browsing surveillance - 2.3M users
+# Source: Koi Security, Spin.AI
+# ============================================================================
+
+# Color Picker, Eyedropper - Geco colorpick
+eokjikchkppnkdipbiggnmlkahcdkikp
+
+# Emoji Keyboard Online
+kgmeffmlnkfnjpgmdndccklfigfhajen
+
+# Free Weather Forecast
+dpdibkjjgbaadnnjhkmmnenkmbnhpobj
+
+# Video Speed Controller - Video manager
+gaiceihehajjahakcglkhmdbbdclbnlf
+
+# Unlock Discord - VPN Proxy
+mlgbkfnjdmaoldgagamcnommbbnhfnhf
+
+# Dark Theme - Dark Reader for Chrome
+eckokfcjbjbgjifpcbdmengnabecdakp
+
+# Volume Max - Ultimate Sound Booster
+mgbhdehiapbjamfgekfpebmhmnmcmemg
+
+# Unblock TikTok
+cbajickflblmpjodnjoldpiicfmecmif
+
+# Unlock YouTube VPN
+pdbfcnhlobhoahcamoefbfodpmklgmjm
+
+# Weather
+ihbiedpeaicgipncdnnkikeehnjiddck
+
+# ============================================================================
+# ShadyPanda Campaign (December 2025)
+# 7-year sleeper campaign, remote code execution backdoor - 4.3M users
+# Source: Koi Security, Malwarebytes
+# ============================================================================
+eagiakjmjnblliacokhcalebgnhellfi
+ibiejjpajlfljcgjndbonclhcbdcamai
+ogjneoecnllmjcegcfpaamfpbiaaiekh
+jbnopeoocgbmnochaadfnhiiimfpbpmf
+cdgonefipacceedbkflolomdegncceid
+
+# ============================================================================
+# Phantom Shuttle - Credential Theft via Proxy Hijacking (December 2025)
+# MitM traffic interception, credential theft from 170+ domains
+# Source: Socket.dev
+# ============================================================================
+ocpcmfmiidofonkbodpdhgddhlcmcofd
+
+# ============================================================================
+# AI Chatbot Impersonation (December 2025)
+# Stole ChatGPT/DeepSeek conversations and browsing history - 900K users
+# Source: OX Security
+# ============================================================================
+
+# Chat GPT for Chrome with GPT-5, Claude Sonnet & DeepSeek AI
+fnmihdojmnkclgjpcoonokmkhjpjechg
+
+# AI Sidebar with Deepseek, ChatGPT, Claude and more
+inhcgfpbfdjbjogdfjbclgolkmhnooop
+
+# ============================================================================
+# AiFrame Fake AI Assistants (February 2026)
+# Remote-controlled iframe injection for surveillance - 260K users
+# Source: LayerX Security
+# ============================================================================
+
+# Gemini AI Sidebar
+fppbiomdkfbhgjjdmojlogeceejinadg
+
+# AI Assistant
+nlhpidbjmmffhoogcennoiopekbiglbp
+
+# ============================================================================
+# QuickLens / ShotBird - Ownership Transfer Attacks (March 2026)
+# CSP stripping, ClickFix attacks, crypto seed phrase theft
+# Source: Annex Security, Monx Research, BleepingComputer
+# ============================================================================
+
+# QuickLens - Search Screen with Google Lens
+kdenlnncndfnhkognokgfpabgkgehodd
+
+# ShotBird - Scrolling Screenshots
+gengfhhkjekmlejbhmmopegofnoifnjp
+
+# ============================================================================
+# Malicious Firefox Add-ons
+# Firefox uses email-style or GUID-style IDs
+# ============================================================================
+
+# Bypass - Abused proxy API to block Firefox updates (Oct 2021)
+# Source: BleepingComputer, Mozilla Security Blog
+{7c3a8b88-4dc9-4487-b7f9-736b5f38b957}
+
+# Bypass XM - Same proxy API abuse
+{d61552ef-e2a6-4fb5-bf67-8990f0014957}
+
+# Web of Trust (WOT) - Sold browsing history of 140M+ users (2016)
+# Source: The Hacker News, Bugzilla 1314332
+{a0d7ccb3-214d-498b-b4aa-0e8fda9a7bf7}
+
+# Stylish - Recorded complete browsing history after ownership change (2018)
+# Source: BleepingComputer
+{46551EC9-40F0-4e47-8E18-8E5CF550CFB8}
+
+# "Web Security" cluster (August 2018) - 23 extensions sending data to same server
+# Source: gHacks, BleepingComputer, Bugzilla 1483995
+firefox@browser-security.de
+firefox@smarttube.io
+info@browser-privacy.com
+simplysearch@dirtylittlehelpers.com
+extreme@smarttube.io
+selfdestructingcookies@dirtylittlehelpers.com
+adblock@smarttube.io
+mail@quick-buttons.de
+youtubemp3converter@yttools.io
+{0fde9597-0508-47ff-ad8a-793fa059c4e7}
+{d3b98a68-fd64-4763-8b66-e15e47ef000a}
+{36ea170d-2586-45fb-9f48-5f6b6fd59da7}
+{27a1b6d8-c6c9-4ddd-bf20-3afa0ccf5040}
+{2e9cae8b-ee3f-4762-a39e-b53d31dffd37}
+{a659bdfa-dbbe-4e58-baf8-70a6975e47d0}
+{f9455ec1-203a-4fe8-95b6-f6c54a9e56af}
+{8c85526d-1be9-4b96-9462-aa48a811f4cf}
